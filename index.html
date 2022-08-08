@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocK-Paper-Csissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="headName">
+            <p class="headText">The Game</p>
+        </div>
+        <div class="headName">
+            <p class="headText">Rock-Paper-Scissors</p>
+        </div>
+    </div>
+    <div class="scoreArea">
+        <div class="theScore">
+            <h3>The Score</h3>
+        </div>
+        <div class="score">
+            <div class="scoreAreaCom">
+                <p class="countScoreCom comScore">0</p>
+                <p class="textScore">computer</p>
+            </div>
+            <div class="scoreAreaPlayer">
+                <p class="countScorePlayer paleyScore">0</p>
+                <input type="text" placeholder="Your nicname" class="intetNicname">
+                <button class="set" id="setNicname">set</button>
+                <button class="set" id="resetButton">reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="playArea">
+        <div class="winer">
+            <div class="comWiner"></div>
+            <div class="draw"></div>
+            <div class="playerWiner"></div>
+        </div>
+        <div class="playButton">
+            <div class="comArea">
+                <img src="./img/rock.png" alt="rock" class="img imgRock">
+                <img src="./img/paper.png" alt="paper" class="img imgPaper">
+                <img src="./img/csissors.png" alt="csissors" class="img imgCsissors">
+            </div>
+            <div class="playerArea">
+                <button class="playerButton img1"><img src="./img/rock.png" alt="rock" class="img playerRock"></button>
+                <button class="playerButton img2"><img src="./img/paper.png" alt="paper"
+                        class="img playerPaper"></button>
+                <button class="playerButton img3"><img src="./img/csissors.png" alt="csissors"
+                        class="img playerCsissors"></button>
+            </div>
+
+        </div>
+        <!-- <div>
+            <div>
+
+            </div>
+        </div> -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

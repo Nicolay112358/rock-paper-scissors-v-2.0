@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #6A67CE;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p,
+h3 {
+    padding: 0;
+    margin: 0;
+    color: #EEF3D2;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+/* Score Area */
+.scoreArea {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 220px;
+    background-color: #B689C0;
+
+}
+
+.theScore {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #092731;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background-color: #B689C0;
+}
+
+.textScoreб {
+    font-size: 45px;
+}
+
+.intetNicname,
+.set {
+    height: 30px;
+    background-color: #6A67CE;
+    color: #EEF3D2;
+    font-family: monospace;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#setNicname {
+    width: 50px;
+}
+
+.intetNicname {
+    width: 110px;
+}
+
+input::placeholder {
+    color: #EEF3D2;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.countScoreCom,
+.countScorePlayer {
+    font-size: 70px;
+}
+
+.scoreAreaCom,
+.scoreAreaPlayer {
+    width: 300px;
+    text-align: center;
+}
+
+/*Play area */
+.playArea {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.winer,
+.playButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding: 25px;
+}
+
+.comArea,
+.playerArea {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    padding: 100px;
+    gap: 10 px;
+}
+
+.comWiner,
+.draw,
+.playerWiner {
+    width: 30%;
+    text-align: center;
+}
+
+.comWiner {
+    margin-right: -300px;
+}
+
+.playerWiner {
+    margin-left: -300px;
+}
+
+.img {
+    height: 100px;
+    width: auto;
+    border: #FFE69A solid;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.playerArea .img:hover {
+    background-color: #B689C0;
+}
+
+.playerButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6A67CE;
+    border-radius: 5px;
+    border: none;
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 145px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img1 {
+    width: 92px;
+}
+
+.img2 {
+    width: 95px;
+}
+
+.img3 {
+    width: 90px;
+}
